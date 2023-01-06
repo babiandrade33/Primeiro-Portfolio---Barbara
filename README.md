@@ -16,11 +16,11 @@
 </p>
 <h2>Telas</h2>
 <h3>tela 01</h3>
-<img src="./Captura de tela1.png">
+<img src="./Captura de tela 1.png">
 <h3>tela 02</h3>
-<img src="./Capturadetela2.png">
+<img src="./Captura de tela 2.png">
 <h3>tela 03</h3>
-<img src="./Capturadetela3.png">
+<img src="./Captura de tela 3.png">
 <h2>Video</h2>
 <img src="./gifportfolio.gif">
 
