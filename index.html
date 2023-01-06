@@ -40,53 +40,53 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<script>
-		var dataHora, xHora, dia, mes, ano, xDia, saudacao;
-dataHora = new Date();
-xHora = dataHora.getHours();
+// 		var dataHora, xHora, dia, mes, ano, xDia, saudacao;
+// dataHora = new Date();
+// xHora = dataHora.getHours();
 
-if (xHora >= 0 && xHora < 12) {
-    saudacao = "Bom dia!";
-}
-if (xHora >= 12 && xHora < 18) {
-    saudacao = "Boa tarde!";
-}
-if (xHora >= 18 && xHora < 23) {
-    saudacao = "Boa noite!";
-}
+// if (xHora >= 0 && xHora < 12) {
+//     saudacao = "Bom dia!";
+// }
+// if (xHora >= 12 && xHora < 18) {
+//     saudacao = "Boa tarde!";
+// }
+// if (xHora >= 18 && xHora < 23) {
+//     saudacao = "Boa noite!";
+// }
 
-xDia = dataHora.getDay();
-diaSemana = new Array(7);
+// xDia = dataHora.getDay();
+// diaSemana = new Array(7);
 
-diaSemana[0] = "Domingo";
-diaSemana[1] = "Segunda-feira";
-diaSemana[2] = "Terça-feira";
-diaSemana[3] = "Quarta-feira";
-diaSemana[4] = "Quinta-feira";
-diaSemana[5] = "Sexta-feira";
-diaSemana[6] = "Sábado-feira";
+// diaSemana[0] = "Domingo";
+// diaSemana[1] = "Segunda-feira";
+// diaSemana[2] = "Terça-feira";
+// diaSemana[3] = "Quarta-feira";
+// diaSemana[4] = "Quinta-feira";
+// diaSemana[5] = "Sexta-feira";
+// diaSemana[6] = "Sábado-feira";
 
-dia = dataHora.getDate();
-mes = dataHora.getMonth();
+// dia = dataHora.getDate();
+// mes = dataHora.getMonth();
 
-mesAno = new Array(12);
+// mesAno = new Array(12);
 
-mesAno[0] = "Janeiro";
-mesAno[1] = "Fevereiro";
-mesAno[2] = "Março";
-mesAno[3] = "Abril";
-mesAno[4] = "Maio";
-mesAno[5] = "Junho";
-mesAno[6] = "Julho";
-mesAno[7] = "Agosto";
-mesAno[8] = "Setembro";
-mesAno[9] = "Outubro";
-mesAno[10] = "Novembro";
-mesAno[11] = "Dexembro";
+// mesAno[0] = "Janeiro";
+// mesAno[1] = "Fevereiro";
+// mesAno[2] = "Março";
+// mesAno[3] = "Abril";
+// mesAno[4] = "Maio";
+// mesAno[5] = "Junho";
+// mesAno[6] = "Julho";
+// mesAno[7] = "Agosto";
+// mesAno[8] = "Setembro";
+// mesAno[9] = "Outubro";
+// mesAno[10] = "Novembro";
+// mesAno[11] = "Dexembro";
 
-ano = dataHora.getFullYear();
+// ano = dataHora.getFullYear();
 
-alert(saudacao + " " + diaSemana[xDia] + ", " + dia + " de " + mesAno[mes] + " de " + ano);
-document.addEventListener('contextmenu', event=> event.preventDefault());
+// alert(saudacao + " " + diaSemana[xDia] + ", " + dia + " de " + mesAno[mes] + " de " + ano);
+// document.addEventListener('contextmenu', event=> event.preventDefault());
 
         function slide1(){
             document.getElementById("id").src="https://themewagon.com/wp-content/uploads/2020/11/petsitting-1.jpg";
