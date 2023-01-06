@@ -16,7 +16,7 @@
 </p>
 <h2>Telas</h2>
 <h3>tela 01</h3>
-<img src="./Capturadetela1.png">
+<img src="./Captura de tela1.png">
 <h3>tela 02</h3>
 <img src="./Capturadetela2.png">
 <h3>tela 03</h3>
